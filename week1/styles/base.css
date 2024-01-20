@@ -23,6 +23,30 @@ nav a:hover{
     background-color: rgba(0,0,0,0.2);
  }
 
+#mybutton{
+    font-size: 2rem;
+    background : none;
+    border :none ;
+    color :#fff;
+    cursor :pointer;
+    width : 100%;
+    text-align : right;
+    padding : .25rem 2vw;
+}
+ul.menulinks li a {
+   
+    display :block ;
+    padding: .75rem 2vw;
+    text-decoration : none ;
+}
+
+ul.menulinks{
+   display:none;
+}
+
+ul.menulinks.open{
+    display:block;
+}
 
 
 
@@ -49,3 +73,13 @@ nav a:hover{
     padding:10px;
 
  }
+
+
+ #mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}

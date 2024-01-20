@@ -31,12 +31,13 @@ header {
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	
 	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header,
 main {
-	max-width: 990px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
@@ -80,5 +81,7 @@ nav a:hover {
 footer{
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #bbb;
+	background-color: #bbb;
+   
+
 }
