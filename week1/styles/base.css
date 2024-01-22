@@ -41,7 +41,7 @@ ul.menulinks li a {
 }
 
 ul.menulinks{
-   display:none;
+  display:none;
 }
 
 ul.menulinks.open{
