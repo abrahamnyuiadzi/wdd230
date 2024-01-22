@@ -1,0 +1,42 @@
+header {
+    background-color :purple;
+    padding : 0 ;
+    
+
+}
+
+#header-title-wrapper{
+	position: absolute;
+
+
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
+nav a{
+    display: block;
+    color : #fff;
+    text-align:center;
+    padding: .5rem;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color : rgba(255,255,255,0.2);
+}
+
+#hero.img{
+  width : 50px;
+  height: 50px;
+ justify-content: center;
+}
