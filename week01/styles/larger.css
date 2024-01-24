@@ -93,7 +93,7 @@ footer{
 	margin: 10px auto;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
+	height: 700px;
 }
 
 .hero img {
@@ -121,4 +121,10 @@ footer{
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
 }
+
+iframe{
+    width: 1100px;
+    height: 200px;
+  }
+  
 
