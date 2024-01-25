@@ -1,221 +1,157 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Abraham Nyuiadzi">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yawogan abraham nyuiadzi -wdd230 -web frontend Development</title>
+    <meta name ="description" content =" yawogan abraham nyuiadzi-wdd230-web frontend Development ">
+    <meta name ="author" content="yawogan abraham nyuiadzi">
 
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="C:\Users\USER\Desktop\wdd230\chamber\styles\base.css">
-  <link rel="stylesheet" href="styles/medium.css">
-  <link rel="stylesheet" href="C:\Users\USER\Desktop\wdd230\chamber\styles\large.css">
-
-  <script defer src="scripts.js"></script>
-  <script defer src="windchill.js"></script>
+    <link  href ="styles/base.css" rel ="stylesheet">
+    <link  href ="styles/large.css" rel ="stylesheet">
+   
+   
 </head>
 
-<div class="menu-background" onclick="toggleMenu()"></div>
-<header>
-  <div class="announcement-banner" id="announcement-banner">
-    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-  </div>
-  <div class="header-title-wrapper">
+<body>
+    <header>
+      <div class="header-title-wrapper">
   
-    <img class="https://github.com/abrahamnyuiadzi/wdd230/blob/main/images/site1.jpg?raw=true" src="images/logo.webp" alt="Company_logo" width="55" height="55">
-    <div class="header-title-title">
-      <h1 class="header-heading">Abraham</h1>
-      <p class="header-subtitle">Chamber of Commerce</p>
-    </div>
-    <div class="hamburger-menu">
-      <ul>
-        <li><a href="">Discover</a></li>
-        <li><a href="">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="../">Main</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="header-social-wrapper">
-    <div class="header-social">
-      <img src="" alt="" width="30" height="30">
-      <img src="" alt="" width="30" height="30">
-    </div>
-    <div class="header-menu center">
-      <!-- source: https://codepen.io/ainalem/pen/wvKOEMV -->
-      <button id="menu-button" class="menu-button" onclick="toggleMenu();" aria-label="Main Menu">
-        <svg viewBox="0 0 100 100">
-          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,
-            29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,
-            77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,
-            81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,
-            25.000058" />
-          <path class="line line2" d="M 20,50 H 80" />
-          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,
-            70.999954 94.498839, 71.182648 94.532987,33.288669 94.543142,
-            22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,
-            18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,
-            74.999942" />
-        </svg>
-      </button>
-      <div class="hamburger-menu">
-        <ul>
-          <li><a href="">Discover</a></li>
-          <li><a href="">Directory</a></li>
-          <li><a href="">Join</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="../">Main</a></li>
-        </ul>
+        <img class="" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+         alt="Company_logo" width="55" height="55">
+        <div class="header-title-title">
+          <h1 class="header-heading">Abraham</h1>
+          <p class="header-subtitle">Chamber of Commerce</p>
+        </div>
+        <div class="hamburger-menu">
+          <nav>
+          <ul>
+            <li><a href="">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="../">Main</a></li>
+          </ul>
+        </nav>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="header-date center">
-    <span id="header-date" class="center"></span>
-  </div>
-</header>
-<main>
-  <section class="hero">
-    <picture>
-      <source media="(min-width: 990px)" srcset="">
-      <source media="(min-width: 651px)" srcset="https://gabrielferrin.github.io/wdd230/chamber/images/hero-medium.jpg">
-      <img src="https://gabrielferrin.github.io/wdd230/chamber/images/hero-small.jpg" alt="Business people discussing">
-    </picture>
-    <div class="hero-wrapper">
-      <h1>Welcome to Abraham</h1>
-        <button>Join the Chamber</button>
-    </div>
-  </section>
-  <section class="event">
-    <h2>ipsum dolo</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores,
-      sed quas, laudantium necessitatibus dignissimos eaque laborum illo
-      voluptatem, corrupti pariatur hic fugit voluptatum molestiae officiis!
-    </p>
-    <div class="event-picture-wrapper">
-     
-    </div>
-    <button>more info...</button>
-  </section>
-  <section class="weather">
-    <h2>Weather</h2>
-    <div class="weather-separator-01">
-      <picture>
-        <img src="images/cloudy.svg" alt="">
-      </picture>
-      <p><span id="temperature">-20</span>°C</p>
-    </div>
-    <div class="weather-separator-02">
-      <p><strong>Partly Cloudy</strong></p>
-      <hr>
-      <div class="weather-separator-03">
-        <p>Wind Speed:</p>
-        <p>Wind Chill:</p>
-        <p><span id="wind-speed">55</span> km/h</p>
-        <p><span id="windchill">N/A</span></p>
-      </div>
-    </div>
-  </section>
-  <section class="news">
-    <h2>News Release</h2>
-    <div class="news-separator-wrapper">
-      
-      </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-        pariatur deleniti porro, excepturi nostrum quisquam odit impedit
-        non enim dolor reprehenderit officiis temporibus obcaecati
-        molestias minima?.
-      </p>
-    </div>
-  </section>
-  <section class="join">
-    <h2>Join us</h2>
-    <button>Join Us!</button>
-    <p>
-   the door are open for everyone 
-    </p>
-  </section>
-  <div class="spotlights">
-  <article>
-    <picture>
-      <img src="images/tornillo.png" alt="Image of a screw">
-    </picture>
-      <picture>
-        <img src="images/tornillo.png" alt="Image of a screw">
-      </picture>
-      <div class="article-separator">
-        <p>"We are for you "</p>
-        <hr>
-        <p class="article-small-p">asc@gmail.com</p>
-        <p class="article-small-p">+228 98 518 0767 | greet.com.ec</p>
-      </div>
-    </article>
-    <article>
-      <picture>
-        <img src="" alt=" Insudtries logo">
-      </picture>
-      <picture>
-        <img src="" alt="Shopping cart">
-      </picture>
-      <div class="article-separator">
-        <p>Staple goods</p>
-        <hr>
-        <p class="article-small-p">info@ales.com.ec</p>
-        <p class="article-small-p">+228 5 221 5000 | www.greet.com.ec</p>
-      </div>
-    </article>
-    <article>
-      <picture>
-        <img src="" alt=" title">
-      </picture>
-      <picture>
-        <img src="" alt=" logo">
-      </picture>
-      <div class="article-separator">
-        <p>Tipical Food</p>
-        <hr>
-        <p class="article-small-p">info@casarosada.com.ec</p>
-        <p class="article-small-p">+593 99 321 4356 |greet.com.ec</p>
-      </div>
-    </article>
-  </div>
-</main>
-<footer>
-  <div class="footer-wrapper">
-    <div class="footer-logo">
-      <img src="images/logo.webp" alt="abraham_Chamber_of_Commerce_Logo" width="55" height="55">
-    </div>
-    <div class="footer-address">
-      <p class="footer-title">abraham Chamber of Commerce</p>
-      <p>
-        <a href="https://goo.gl/maps/AbMQ1WCfnY7VWvs47?coh=178573&entry=tt">
-          street 2 av don santos Togo
-        </a>
-      </p>
-      <p> Rue 101 </p>
-    </div>
-    <div class="footer-contact">
-      <p>info@abrahamchamber.com</p>
-      <p>+228 9376 1763</p>
-      <p>
-        <a href="https://goo.gl/maps/AbMQ1WCfnY7VWvs47?coh=178573&entry=tt">
-          <img src="C:\Users\DELL\Desktop\images.jpg" alt="">
-          Location Map</a>
-      </p>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <hr>
-    <p id="copyright"></p>
-    <p>Abraham Nyuiadzi</p>
-    <p>WDD 203 Project</p>
-    <p id="last-modified"></p>
-    <p id="copyright-line"></p>
-  </div>
-</footer>
-</body>
 
+      <div class="header-social-wrapper">
+        <div class="header-social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="" width="30" height="30">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png" alt="" width="30" height="30">
+        </div>
+       
+    </header>
+      <main >
+        <section class="hero">
+          <picture>
+            <source media="(min-width: 50px)" srcset="https://github.com/abrahamnyuiadzi/wdd230/blob/main/chamber/images/hero.jpg">
+            <source media="(min-width: 651px)" srcset="https://github.com/abrahamnyuiadzi/wdd230/blob/main/chamber/images/hero.jpg">
+            <img src="https://github.com/abrahamnyuiadzi/wdd230/blob/main/chamber/images/hero.jpg" alt="Business people discussing">
+          </picture>
+          <div class="hero-wrapper">
+            <h1>Welcome to Abraham</h1>
+              <button>Join the Chamber</button>
+          </div>
+
+         
+        </section>
+      <div class ="parent1">
+        <section class="event">
+          <h2>Events</h2>
+          <p>this page is target to bussiness owner who desire to
+             promotte their a activity and expose
+            the offer that they propose to the rest of the word ,
+             this can help them improve their bussiness .
+          </p>
+          
+        </section>
+
+        
+        <section class="weather">
+          <h2>Weather</h2>
+          <div class="weather-separator-01">
+            <picture>
+              <img src="images/cloudy.svg" alt="">
+            </picture>
+            <p><span id="temperature">-20</span>°C</p>
+          </div>
+          <div class="weather-separator-02">
+            <p><strong>Partly Cloudy</strong></p>
+            <hr>
+            <div class="weather-separator-03">
+              <p>Wind Speed:</p>
+              <p>Wind Chill:</p>
+              <p><span id="wind-speed">55</span> km/h</p>
+              <p><span id="windchill">N/A</span></p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class ="parent2">
+        <section class="news">
+          <h2>News Release</h2>
+          
+            <p><span>A chamber of commerce is an organization of business owners and entrepreneurs 
+              who promote the interests of their local business community. Chambers of commerce 
+              provide access to valuable resources, 
+              discounts, and relationships that help businesses save money and market their products.
+            </span></p>
+     
+        </section>
+        <section class="event">
+          <h2>information</h2>
+          <p><span>cascadeabraham@gmail.com
+            tel: 00228 959493939494
+            webside
+          </span></p>
+          
+          <button>more info...</button>
+        </section>
+        <section class="event">
+          <h2>Thankful transport</h2>
+          <p><span>gylls@gmail.com
+            tel:4857855949494
+            webside 
+           </span>
+          </section>
+      </div>
+ 
+    </main>
+    
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="abraham_Chamber_of_Commerce_Logo" width="55" height="55">
+        </div>
+        <div class="footer-address">
+          <p class="footer-title">abraham Chamber of Commerce</p>
+          <p>
+            <a href="https://goo.gl/maps/AbMQ1WCfnY7VWvs47?coh=178573&entry=tt">
+              street 2 av don santos Togo
+            </a>
+          </p>
+          <p> Rue 101 </p>
+        </div>
+        <div class="footer-contact">
+          <p>info@abrahamchamber.com</p>
+          <p>+228 9376 1763</p>
+          <p>
+            <a href="https://goo.gl/maps/AbMQ1WCfnY7VWvs47?coh=178573&entry=tt">
+              <img src="C:\Users\DELL\Desktop\images.jpg" alt="">
+              Location Map</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <hr>
+        <p id="copyright"></p>
+        <p>Abraham Nyuiadzi</p>
+        <p>WDD 203 Project</p>
+        <p id="last-modified"></p>
+        <p id="copyright-line"></p>
+      </div>
+    </footer>
+</body>
 </html>
