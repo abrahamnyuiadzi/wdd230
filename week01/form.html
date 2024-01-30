@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yawogan abraham nyuiadzi -wdd230 -web frontend Development</title>
+    <meta name ="description" content =" yawogan abraham nyuiadzi-wdd230-web frontend Development ">
+    <meta name ="author" content="yawogan abraham nyuiadzi">
+
+    <link  href ="styles/base.css" rel ="stylesheet">
+    <link  href ="styles/larger.css" rel ="stylesheet">
+
+    <link href = "styles/formStyle.css" rel ="stylesheet" >
+
+    <link href >
+    <link href >
+</head>
+<body>
+    <header>
+
+        <img src="images/abraham.jpg" alt =" photo" width =" 90" height="90">
+        <h1> Nyuiadzi yawogan abraham</h1>
+        <div id="mode">
+            🕶️
+        </div>
+
+    </header>
+ 
+    <nav >
+      
+
+        <button  id = "mybutton">&#9776;</button>
+        <ul class ="menulinks" >
+            <li><a class=" active" href="#">home</a></li>
+            <li><a href="#">chamber</a></li>
+            <li><a href="#">site plan</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+    </nav>
+  
+       
+    <main >
+        <div id="formmessage"></div>
+	<h1>Contact Us</h1>
+        <form method="get" action  ="record.html">
+            <p class="smaller">*️⃣ Indicates a required field</p>
+    
+            <label for="fullname" class="req">Name</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Please enter your  username">
+            
+            <label for="keyphrase">Enter you password </label>
+            <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8,}" placeholder="At least eight characters long.">
+            <label for="keyphrase2">Re-enter Your Password</label>
+            <input type="text" id="keyphrase2" name="keyphrase2">
+
+            <label for="email" class="req">Email Address</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required placeholder="Please use your school email address">
+            
+            <label for="r">INPUT: range, min, max, datalist, required</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </datalist>
+            
+    
+           
+            <button id="btnSubmit" type="submit">Send</button>
+            <input type="hidden" value="43aster">
+        </form>
+    </main>
+    
+       <footer>  Abraham nyuiadzi :|: Togo 
+        <p><span id="year">year : </span></p>
+        <p id="lastModified"></p>
+        </footer>
+     <script src ="scripts/getDates.js"></script>
+</body>
+</html>
