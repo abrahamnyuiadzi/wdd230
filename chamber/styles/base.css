@@ -1,6 +1,29 @@
 /* 64em is also 1028px (if basefont is 16px) */
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  /* theme font */
+  --font: "Rubik", Arial, 'Trebuchet MS';
+  /* theme colors */
+  --primary01: #0a0443;
+  --primary02: #2c2292;
+  --primary03: #3c38e5;
+  --primary03-opaque: #2624c9;
+  --secondary01: #3100b6;
+  --secondary02: #00e5df;
+  --warn: #f1a500;
+  --warn-opaque: #e49c00;
+  /* default border radius */
+  --default-border-radius: 4px;
+  /* extra colors */
+  --font-color: #1b1b1b;
+  --contrast-font-color01: #fff;
+  --contrast-font-color02: #c4c4c4;
+  --bg--contrast-light-01: #ebebeb;
+  /* spacing */
+  --white-space: 10px;
+}
     header, nav, main, footer {
         max-width: 64rem;
         margin:auto;
@@ -24,6 +47,34 @@ header h2 {
 	margin: 0;
 	font-weight: normal;
 }
+
+
+.announcement-banner {
+  transition: .3s;
+
+  width: calc(100% - var(--white-space) * 2);
+  height: auto;
+  background-color: var(--secondary01);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: .7em;
+  grid-column: 1/3;
+  margin-bottom: var(--white-space);
+  padding: 0 var(--white-space);
+  border-radius: var(--default-border-radius);
+}
+
+.announcement-banner:hover {
+  width: 100%;
+  margin-left: calc(var(--white-space) * -1);
+}
+
+.announcement-banner p {
+  color: var(--font-color);
+  font-size: 2.1em;
+}
+
 
 
 

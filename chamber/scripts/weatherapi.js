@@ -12,7 +12,7 @@ const myLong ="1.253895"
 
 
 
-async function apiFetch(myURL) {
+async function apiFetch() {
   try {
     const response = await fetch(myURL);
     if (response.ok) {
